@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 110%;
+    background: #fffbf2;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0;
+    color: white;
+    background: #2ba7fa;
+    text-align: center;
+    border: 1px solid #bab6b6;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+
+form, .content {
+    width: 30%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #bab6b6;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.input-group {
+    margin: 10px 0px 10px 0px;
+}
+
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+}
+
+.input-group input {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #808080 ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.input-group select {
+    height: 30px;
+    width: 93%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border: 1px solid #808080 ;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    height: 30px;
+}
+
+
+.btn  {
+    padding: 10px;
+    font-size: 15px;
+    height: 40px;
+    width: 43%;
+    padding: 5px 10px;
+    color: white;
+    background: #4bc4a3;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.btn_gnr {
+    padding: 10px;
+    font-size: 15px;
+    height: 30px;
+    width: 33%;
+    padding: 5px 10px;
+    color: white;
+    background: #4bc4a3;
+    border: none;
+    border-radius: 5px;
+    align-items: center; 
+}
+
+
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a81818;
+    color: #a81818;
+    background: #fef3f3;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.success {
+    color: #32714a;
+    background: #dff9d8;
+    border: 1px solid #32714a;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.p1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}

@@ -1,0 +1,42 @@
+CREATE TABLE  users_db (
+    id int (11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+    ph_id int (15) NOT NULL,
+    firstname varchar (30) NOT NULL,
+    lastname varchar (30) NOT NULL,
+    job_ad varchar (20) NOT NULL,
+    tel int (15) NOT NULL,
+    email varchar(100) NOT NULL UNIQUE KEY,
+    id_num int (18) NOT NULL,
+    password varchar (100) NOT NULL
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+
+https://www.tutsmake.com/send-reset-password-link-email-php/#google_vignette
+
+https://www.md5online.org/md5-decrypt.html
+
+https://github.com/daveh/php-password-reset/blob/main/mailer.php
+
+https://www.thaicreate.com/php/forum/057747.html
+
+https://www.nicesnippets.com/blog/how-to-forgot-password-send-mail-in-php
+
+https://github.com/dompdf/dompdf
+
+$password = "123456789abcdefghjklmnpqrtuvwxyABCDEFGHJKLMNPQRSTUVWXYZ"; 
+             srand((double)microtime()*1000000); 
+               for($i=0; $i<7; $i++) { 
+                  $pass_rand .= $password[rand()%strlen($password)]; 
+               } 
+
+https://medium.com/@Supperpin/%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B8%AA%E0%B8%A3%E0%B9%89%E0%B8%B2%E0%B8%87
+-pdf-%E0%B8%94%E0%B9%89%E0%B8%A7%E0%B8%A2-laravel-dompdf-%E0%B9%81%E0%B8%A5%E0%B8%B0%E0%B9%80%E0%B8%9E%E0%B8%B4%E0%B9%88%E0%B8%A1-font-
+%E0%B8%A0%E0%B8%B2%E0%B8%A9%E0%B8%B2%E0%B9%84%E0%B8%97%E0%B8%A2-2a34252421c8
+
+password
+================
+kB8SgGu :
+
+R9xg6yT :
+
+https://codetukyang.com/scripts/php_check_idcard.php
